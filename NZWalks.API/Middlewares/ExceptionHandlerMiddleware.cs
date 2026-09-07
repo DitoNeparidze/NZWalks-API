@@ -31,6 +31,7 @@ public class ExceptionHandlerMiddleware
 
             var errorResult = new
             {
+
                 Id = errorId,
                 ErrorMessage = "Something went wrong! we are looking into resolving this"
             };
